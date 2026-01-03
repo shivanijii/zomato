@@ -1,0 +1,61 @@
+.hero_section {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+.logo{
+    font-family: 'Georgia', serif;
+    font-size: 4em;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.hero_section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', sans-serif;
+}
+.hero_section p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    font-family: 'Verdana', sans-serif;
+}
+.hero_section .cta_button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Tahoma', sans-serif;
+}
+.hero_section .cta_button:hover {
+    background-color: #e04343;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .logo {
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Georgia', serif;
+}
