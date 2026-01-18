@@ -268,3 +268,79 @@
     display: flex ;
     gap: 20px;
 }
+.semi_container .radio_container div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.semi_container .right .input_container{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.input_container input ,.input_container button{
+    padding: 8px 13px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.input_container button{
+    background-color: rgb(255, 96, 96);
+    color: #fff;
+}
+.input_container inputP{
+    flex: auto;
+    font-size: 13px;
+}
+.download_container div{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+.download_container div img{
+    width: 28%;
+}
+.footer{
+    background-color: #e0e0e0;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.footer_section1_container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_section1_container img{
+    width: 250px;
+}
+.section1_buttons{
+    display: flex;
+    gap: 15px;
+}
+.section1_buttons button{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.navigation_links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+.navigation_links .link{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.navigation_links .link h5{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
