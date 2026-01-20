@@ -344,3 +344,31 @@
     letter-spacing: 1px;
     font-size: 18px;
 }
+.navigation_links .link .footer_link{
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+    font-size: 11px;
+}
+.navigation_links .link .footer_link:hover{
+    color: #000;
+}
+.social_media_links{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.social_media_links i{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.footer_img{
+    width: 60%;
+     
+}
